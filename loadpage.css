@@ -1,0 +1,22 @@
+.load-page {
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    width: calc(100% - 75px);
+    min-height: calc(100% - 125px);
+    position: absolute;
+    margin: 10px;
+    padding: 20px;
+    bottom: 10px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-size: 200%;
+}

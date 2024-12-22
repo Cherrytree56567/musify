@@ -1,0 +1,17 @@
+{
+    "Music": [
+        {
+            "name": "Blinding Lights",
+            "cover": "music/blinding_lights/cover.jpg",
+            "artist": "The Weeknd",
+            "url": "music/blinding_lights/music.mp3"
+        },
+        {
+            "name": "Shape of You",
+            "cover": "music/shape_of_you/cover.jpg",
+            "artist": "Ed Sheeran",
+            "url": "music/shape_of_you/music.mp3"
+        }
+    ]
+}
+  
