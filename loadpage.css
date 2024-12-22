@@ -4,13 +4,12 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10.5px);
     -webkit-backdrop-filter: blur(10.5px);
-    width: calc(100% - 75px);
-    min-height: calc(100% - 125px);
     position: absolute;
-    margin: 10px;
     padding: 20px;
-    bottom: 10px;
+    bottom: 5px;
     top: 10px;
+    left: 10px;
+    right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,5 +17,23 @@
     flex-direction: column;
     gap: 10px;
     color: white;
-    font-size: 200%;
+    font-size: 1.5rem;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .load-page {
+        font-size: 1.2rem;
+        padding: 15px;
+        gap: 8px;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    .load-page {
+        font-size: 1rem;
+        padding: 10px;
+        gap: 5px;
+    }
 }
