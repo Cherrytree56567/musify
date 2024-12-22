@@ -46,8 +46,8 @@ body {
     backdrop-filter: blur(10.5px);
     -webkit-backdrop-filter: blur(10.5px);
     padding: 5px;
-    width: 15vh;
-    height: 15vh;
+    width: 6rem;
+    height: 6rem;
 }
 
 /* Music Card */
@@ -66,9 +66,9 @@ body {
 
 /* Music Image */
 .music-img {
-    width: 15vh;
     border-radius: 10px;
-    height: 15vh;
+    width: 6rem;
+    height: 6rem;
 }
 
 /* Music Info */
@@ -77,16 +77,12 @@ body {
     text-align: center;
 }
 
-.music-title {
-    font-size: 100%;
-}
-
 .music-card .music-title {
-    font-size: 2vh;
+    font-size: 1rem;
 }
 
 .music-author {
-    font-size: 80%;
+    font-size: 0.7rem;
 }
 
 @media (max-width: 480px) {

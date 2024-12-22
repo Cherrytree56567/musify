@@ -131,6 +131,7 @@
 @media (max-width: 480px) {
     .music-player {
         top: 190px;
+        bottom: auto;
     }
 
     .music-player .music-thumbnail {
